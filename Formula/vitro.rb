@@ -4,28 +4,28 @@
 class Vitro < Formula
   desc "Disposable development VMs driven from a CLI"
   homepage "https://github.com/lambdalisue/vitro"
-  version "0.6.2"
+  version "0.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.2/vitro-v0.6.2-aarch64-apple-darwin.tar.gz"
-      sha256 "de131180c62c0476e546fbc6ff439ba437e6fa5ec89c992ed246eddf72be78e8"
+      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.3/vitro-v0.6.3-aarch64-apple-darwin.tar.gz"
+      sha256 "31b37a3c0e1c785f75b1223231434c727e4faf55a3c7dd3746ea7e30401f2a6a"
     end
     on_intel do
-      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.2/vitro-v0.6.2-x86_64-apple-darwin.tar.gz"
-      sha256 "5581b4f1e1eb7aef75d7ff47177c91b042f8cc332ac66ce63bb3b85a548048fe"
+      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.3/vitro-v0.6.3-x86_64-apple-darwin.tar.gz"
+      sha256 "9e0c0932a62a3a311ff5502a3fc401722314e40eb81a6e4f953e2e80f7756509"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.2/vitro-v0.6.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "225485fa89f699c51baf49a35330cf6f7d0685736843248133ef8a5dc69f6d5f"
+      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.3/vitro-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "08ea43612e4b8637fff5fc924f7ac3e7d796d6a2c53086fca40d3adccd1d0719"
     end
     on_intel do
-      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.2/vitro-v0.6.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "48a24864fac43f83da47dfc756c12beb969eaca87a7d0b7900f42bf1fee09bb8"
+      url "https://github.com/lambdalisue/vitro/releases/download/v0.6.3/vitro-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dd435147d68563db70e702671ec3e3747d0c6d04a7db9f93556ef5ffd9c88a1f"
     end
   end
 
